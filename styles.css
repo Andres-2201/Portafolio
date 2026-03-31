@@ -134,6 +134,53 @@ header button:hover {
 }
 
 .card:hover {
-    transform: scaleY(1.05);
+    transform: scale(1.05);
 }
 
+#skills {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Para que se acomoden si no caben en pantalla */
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.skill-card i {
+    font-size: 50px; /* Tamaño del icono */
+    color: #1A1A1A; /* Negro base */
+    transition: color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-weight: 600;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+}
+
+.skill-card:hover i {
+    color: #E61E32;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #E61E32;
+    color: #1A1A1A;
+    padding: 40px;
+}
