@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #E61E32;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.nav-links a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1A1A1A;
+    transform: scale(1.04);
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.04);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 65px 65px 50px 65px;
+}
+
+header h1 {
+    font-size: 55px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 15px;
+}
+
+button {
+    background: #E61E32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+header button {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 26px;
+    transition: 0.3s;
+}
+
+header button:hover {
+    transform: scale(1.05);
+    color: black;
+}
+
+
+#projects h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.projects-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.projects-container p {
+    color: rgb(39, 39, 39);
+}
+
+.btn-projects {
+    display: inline-flex;
+    background: white;
+    color: black;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    border: 1px solid black;
+}
+
+.btn-projects:hover {
+    transform: scale(1.04);
+    background: rgb(170, 170, 170);
+}
+
+.card {
+    background: #E61E32;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scaleY(1.05);
+}
+
