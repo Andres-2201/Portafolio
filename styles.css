@@ -1,7 +1,13 @@
+/* CSS del index */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html { 
+    scroll-behavior: smooth; 
 }
 
 body {
@@ -145,7 +151,7 @@ header button:hover {
 .skills-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Para que se acomoden si no caben en pantalla */
+    flex-wrap: wrap;
     gap: 40px;
     margin-top: 30px;
 }
@@ -158,8 +164,8 @@ header button:hover {
 }
 
 .skill-card i {
-    font-size: 50px; /* Tamaño del icono */
-    color: #1A1A1A; /* Negro base */
+    font-size: 50px;
+    color: #1A1A1A;
     transition: color 0.3s ease;
     margin-bottom: 10px;
 }
@@ -183,4 +189,57 @@ footer {
     background: #E61E32;
     color: #1A1A1A;
     padding: 40px;
+    flex-direction: column;
 }
+
+/* CSS del index */
+
+/* CSS de sobre mi */
+
+.header-sobre-mi {
+    padding: 65px;
+}
+
+.header-sobre-mi h1 {
+    font-size: 85px;
+    padding-bottom: 30px;
+}
+
+.title-sobre-mi {
+    text-align: center;
+    font-size: 35px;
+}
+
+.cards-sobre-mi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #E61E32;
+    border-radius: 6px;
+    flex-direction: column;
+    color: white;
+    margin: 50px;
+    padding: 25px;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.cards-sobre-mi li {
+    list-style-position: inside;
+    margin-bottom: 15px;
+    list-style-type: disc;
+}
+
+.cards-sobre-mi li::marker {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.cards-sobre-mi:hover {
+    transform: scale(1.04);
+}
+
+/* CSS de sobre mi */
