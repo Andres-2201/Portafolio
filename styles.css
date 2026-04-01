@@ -202,7 +202,15 @@ footer {
 
 .header-sobre-mi h1 {
     font-size: 85px;
+    padding-top: 0;
     padding-bottom: 30px;
+}
+
+.header-sobre-mi h2 {
+    margin-bottom: 20px;
+    color: #E61E32;
+    text-transform: uppercase; 
+    font-size: 24px;
 }
 
 .title-sobre-mi {
@@ -243,3 +251,76 @@ footer {
 }
 
 /* CSS de sobre mi */
+
+/* CSS de proyectos */
+
+.header-proyectos {
+    padding: 50px;    
+}
+
+.header-proyectos h1 {
+    font-size: 75px;
+}
+
+.header-proyectos p {
+    padding: 20px 20px 0 20px;
+}
+
+.grid-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    padding: 40px 10%;
+}
+
+.proyecto-card {
+    background: #1A1A1A;
+    border: 2px solid #E61E32; 
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(230, 30, 50, 0.4);
+}
+
+.proyecto-card h3 {
+    color: #E61E32;
+    font-size: 24px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.proyecto-card span {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #888;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.btn-pro {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #E61E32;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-pro:hover {
+    background: white;
+    color: #E61E32;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
+}
+
+/* CSS de proyectos */
