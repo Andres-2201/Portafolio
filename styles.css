@@ -488,3 +488,87 @@ footer {
 }
 
 /* CSS de contacto  */
+
+/* ============================================================
+    SECCIÓN DE RESPONSIVE (CELULARES)
+   ============================================================ */
+
+@media (max-width: 768px) {
+    
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }S
+
+    .nav-links {
+        gap: 15px;
+        font-size: 14px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    header h1, 
+    .header-sobre-mi h1, 
+    .header-proyectos h1 {
+        font-size: 38px !important; 
+        line-height: 1.2;
+        padding-bottom: 15px;
+    }
+
+    header p, 
+    .header-proyectos p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .cards-sobre-mi {
+        margin: 20px 15px;
+        padding: 20px;
+    }
+
+    .title-sobre-mi {
+        font-size: 28px;
+    }
+
+    .grid-proyectos {
+        grid-template-columns: 1fr; 
+        padding: 20px 5%;
+        gap: 20px;
+    }
+
+    .proyecto-card {
+        padding: 20px;
+    }
+
+    .skills-grid {
+        gap: 15px;
+    }
+
+    .skill-item {
+        flex: 1 1 140px;
+        padding: 15px;
+    }
+
+    .skill-item i {
+        font-size: 40px;
+    }
+
+    .contacto-container {
+        flex-direction: column;
+        padding: 20px 5%;
+        gap: 30px;
+    }
+
+    .form-card, 
+    .social-contact {
+        width: 100%;
+        max-width: 100%;
+        padding: 25px;
+    }
+    
+    footer {
+        padding: 30px 15px;
+        font-size: 14px;
+    }
+}
