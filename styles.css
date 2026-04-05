@@ -324,3 +324,167 @@ footer {
 }
 
 /* CSS de proyectos */
+
+/* CSS de habilidades */
+
+.habilidades-section {
+    padding: 20px 10% 80px 10%;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.skill-item {
+    flex: 1 1 180px;
+    max-width: 220px;
+    background: white;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.4s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-item i {
+    font-size: 60px;
+    color: #1A1A1A;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.skill-item p {
+    font-weight: 800;
+    color: #1A1A1A;
+}
+
+.skill-item:hover {
+    background: #1A1A1A;
+    transform: translateY(-10px);
+    border-color: #E61E32;
+    box-shadow: 0 10px 20px rgba(230, 30, 50, 0.3);
+    cursor: pointer;
+}
+
+.skill-item:hover i {
+    color: #E61E32;
+    transform: scale(1.1);
+}
+
+.skill-item:hover p {
+    color: white;
+}
+
+/* CSS de habilidades  */
+
+/* CSS de Contacto */
+
+.contacto-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 40px 10%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-card {
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    flex: 1;
+    min-width: 320px;
+    max-width: 600px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-group label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1A1A1A;
+}
+
+.input-group input, 
+.input-group textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus, 
+.input-group textarea:focus {
+    border-color: #E61E32;
+    box-shadow: 0 0 5px rgba(230, 30, 50, 0.2);
+}
+
+.btn-enviar {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #E61E32;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 6px black;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0px black;
+    background: #1A1A1A;
+}
+
+.social-contact {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.social-contact h3 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #1A1A1A;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    border: 1px solid #E61E32;
+}
+
+.social-item:hover {
+    background: #E61E32;
+    transform: translateX(10px);
+}
+
+.social-item i {
+    font-size: 20px;
+}
+
+/* CSS de contacto  */
